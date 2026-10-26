@@ -25,8 +25,8 @@ const orderDiscount = orders.map((order) =>{
   
 })
 
+
 const orderOver = orders.filter((order) => order.items * order.pricePerItem >= 100000).map((order) => order.customer);
-  
 
 
 console.log(listOfOrder);
